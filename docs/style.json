@@ -24,7 +24,7 @@
       "type": "line"
     }
   ],
-  "site_root": "http://localhost:9966",
+  "site_root": "https://optgeo.github.io/futatabisan",
   "sources": {
     "i": {
       "attribution": "国土地理院",
@@ -38,7 +38,7 @@
       "attribution": "兵庫県",
       "maxzoom": 18,
       "tiles": [
-        "http://localhost:9966/zxy/{z}/{x}/{y}.pbf"
+        "https://optgeo.github.io/futatabisan/zxy/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
     }
