@@ -1,0 +1,48 @@
+{
+  "center": [
+    135.18495,
+    34.71249
+  ],
+  "layers": [
+    {
+      "id": "std",
+      "source": "i",
+      "type": "raster"
+    },
+    {
+      "id": "contour",
+      "paint": {
+        "line-color": [
+          "rgb",
+          200,
+          160,
+          60
+        ]
+      },
+      "source": "v",
+      "source-layer": "contour",
+      "type": "line"
+    }
+  ],
+  "site_root": "http://localhost:9966",
+  "sources": {
+    "i": {
+      "attribution": "国土地理院",
+      "maxzoom": 18,
+      "tiles": [
+        "https://maps.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg"
+      ],
+      "type": "raster"
+    },
+    "v": {
+      "attribution": "兵庫県",
+      "maxzoom": 18,
+      "tiles": [
+        "http://localhost:9966/zxy/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    }
+  },
+  "version": 8,
+  "zoom": 13.67
+}
